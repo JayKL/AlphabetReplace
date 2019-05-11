@@ -7,9 +7,9 @@ class AlphabetTest {
 	@Test
 	void testAlphabetReplacer() {
 		AlphabetReplaceClass testrefvar=new AlphabetReplaceClass();
-		String input="hi";
+		String input="Hello";
 		String result = testrefvar.replaceLetterWithPosition(input);
-		assertEquals(input,result);
+		assertEquals("hello",result);
 	}
 
 }
