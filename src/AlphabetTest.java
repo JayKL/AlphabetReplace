@@ -9,8 +9,7 @@ class AlphabetTest {
 		AlphabetReplaceClass testrefvar=new AlphabetReplaceClass();
 		String input="abc";
 		String result = testrefvar.replaceLetterWithPosition(input);
-		System.out.println(result);
-		assertEquals("97 98 99",result);
+		assertEquals("1 2 3",result);
 	}
 
 }
