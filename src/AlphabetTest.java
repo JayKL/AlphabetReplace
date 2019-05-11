@@ -10,7 +10,7 @@ class AlphabetTest {
 		String input="abc";
 		String result = testrefvar.replaceLetterWithPosition(input);
 		System.out.println(result);
-		assertEquals("a b c",result);
+		assertEquals("97 98 99",result);
 	}
 
 }
